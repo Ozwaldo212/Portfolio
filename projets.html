@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <nav>
+        <div class="navbar">
+            <li><a href="./index.html">Retour à l'accueil</a></li>
+            <li class="dropdown">
+                <a href="#" class="dropbtn">A propos de moi</a>
+                <div class="dropdown-content">
+                    <a href="element/cv.pdf">Parcours</a>
+                    <a href="competences.html">Compétences</a>
+                </div>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+  </div>  
+<div>
+  <h3>Mes projets</h3>
+  <div class="table-container">
+    <table class="projects-table">
+        <thead>
+            <tr>
+                <th>Nom du Projet</th>
+                <th>Langage</th>
+                <th>Lien</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Qu'est ce que le jjb</td>
+                <td>Html/css</td> 
+                <td><a href="page2.html">Voir le projet</a></td>
+            </tr>
+            <tr>
+                <td>Bibliothèque de jeux</td>
+                <td>JavaScript</td>
+                <td><a href="page1.html">Voir le projet</a></td>
+            </tr>
+            <tr>
+                <td>Cinema</td>
+                <td>Php/mySql</td>
+                <td><a href="https://github.com/Ozwaldo212/cinema">Voir le projet</a></td>
+            </tr>
+            <tr>
+                <td>My framework</td>
+                <td>Php</td>
+                <td><a href="https://github.com/Ozwaldo212/My_framework">Voir le projet</a></td>
+            </tr>
+            <tr>
+                <td>The tv show advisore</td>
+                <td>React.js</td>
+                <td><a href="https://github.com/Ozwaldo212/tv-show-advisor">Voir le projet</a></td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+</div>
+<style>
+    nav {
+        width: 100vw;
+    }
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.table-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.projects-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.projects-table th, .projects-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+.projects-table th {
+    background-color: #444;
+    color: #fff;
+}
+
+.projects-table tr:nth-child(even) {
+    background-color: #555;
+}
+
+.projects-table tr:hover {
+    background-color: #666;
+}
+
+.projects-table a {
+    color: white;
+    
+}
+
+.projects-table a:hover {
+    text-decoration: underline;
+}
+tr th {
+color:  #00FFFF !important;
+}
+</style>
+</body>
+</html>
